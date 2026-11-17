@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Share your favorite console and gaming memories with Press Start.">
+  <meta name="keywords" content="contact, feedback, favorite console, gaming memories">
+  <meta name="author" content="Jeremy Riley">
+  <title>Contact | Press Start</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Site title -->
+  <header>
+    <h1>Press Start</h1>
+    <p>A History of Video Games</p>
+  </header>
+
+  <!-- Navigation: same on every page -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="retro.html">8 &amp; 16-Bit Era</a>
+    <a href="3d-era.html">3D Revolution</a>
+    <a href="hd-era.html">HD &amp; Online Era</a>
+    <a href="today.html">Today's Consoles</a>
+    <a href="contact.html" class="current">Contact</a>
+  </nav>
+
+  <main>
+
+    <h2>Share Your Gaming Story</h2>
+    <section class="console">
+      <img src="images/nes.jpg" alt="The Nintendo Entertainment System console with its rectangular controller" class="console-photo">
+      <h3>Where It All Started</h3>
+      <p>
+        For many gamers, it all started with an NES controller in their hands. Every gamer
+        remembers their first console. Use the form below to tell me which console is your
+        favorite and share a gaming memory. I would also love to hear what you think of the
+        site or which consoles you would like me to add.
+      </p>
+    </section>
+
+    <!-- Feedback form: 5 inputs + Send button -->
+    <form action="#" method="post">
+
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+      <label for="console">Favorite Console</label>
+      <select id="console" name="console">
+        <option value="">-- Choose one --</option>
+        <option value="nes">Nintendo Entertainment System</option>
+        <option value="genesis">Sega Genesis</option>
+        <option value="snes">Super Nintendo</option>
+        <option value="ps1">PlayStation</option>
+        <option value="n64">Nintendo 64</option>
+        <option value="dreamcast">Dreamcast</option>
+        <option value="ps2">PlayStation 2</option>
+        <option value="xbox">Xbox</option>
+        <option value="gamecube">GameCube</option>
+        <option value="xbox360">Xbox 360</option>
+        <option value="ps3">PlayStation 3</option>
+        <option value="wii">Wii</option>
+        <option value="wiiu">Wii U</option>
+        <option value="ps4">PlayStation 4</option>
+        <option value="xboxone">Xbox One</option>
+        <option value="ps5">PlayStation 5</option>
+        <option value="xboxseries">Xbox Series X|S</option>
+      </select>
+
+      <fieldset>
+        <legend>Generation You Grew Up With</legend>
+        <input type="radio" id="gen1" name="generation" value="8-16bit">
+        <label for="gen1">8 &amp; 16-Bit</label>
+        <input type="radio" id="gen2" name="generation" value="3d">
+        <label for="gen2">3D Era</label>
+        <input type="radio" id="gen3" name="generation" value="hd">
+        <label for="gen3">HD Era</label>
+        <input type="radio" id="gen4" name="generation" value="today">
+        <label for="gen4">Today</label>
+      </fieldset>
+
+      <label for="comments">Comments or Gaming Memory</label>
+      <textarea id="comments" name="comments" rows="6" placeholder="Tell me about your favorite gaming moment..."></textarea>
+
+      <input type="submit" value="Send">
+
+    </form>
+
+    <h2>Other Ways to Reach Me</h2>
+    <p>
+      You can also email me directly at
+      <a href="mailto:jariley6@asu.edu">jariley6@asu.edu</a>.
+    </p>
+    <p>
+      Want to dig deeper into game history? Visit the
+      <a href="https://gamehistory.org/" target="_blank">Video Game History Foundation</a>
+      or the <a href="https://www.museumofplay.org/games/world-video-game-hall-of-fame/" target="_blank">World Video Game Hall of Fame</a>.
+    </p>
+
+    <p class="credit">
+      NES photo from <a href="https://commons.wikimedia.org/" target="_blank">Wikimedia Commons</a>.
+    </p>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Press Start | CIS 300 Project by Jeremy Riley</p>
+    <p>
+      Learn more at the
+      <a href="https://gamehistory.org/" target="_blank">Video Game History Foundation</a>.
+    </p>
+  </footer>
+
+</body>
+</html>
